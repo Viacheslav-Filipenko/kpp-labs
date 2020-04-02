@@ -7,4 +7,4 @@ npm start
 ```
 
 ##Example of work
-![example of work](public\assets\examples\example.png?raw=true)
+![example of work](https://github.com/Viacheslav-Filipenko/kpp-labs/blob/master/lab2/public/assets/examples/example.png?raw=true)
