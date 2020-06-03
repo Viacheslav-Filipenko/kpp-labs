@@ -1,7 +1,7 @@
 # Лабораторна 2: Розробка браузерної аплікації
 
 ## Quickstart
-``` bash
+```bash
 npm install
 npm start
 ```
