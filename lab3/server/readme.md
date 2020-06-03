@@ -1,9 +1,9 @@
 # Todo server
 
-- [Get todos](https://github.com/Viacheslav-Filipenko/server-todo#get-todos)
-- [Get todo](https://github.com/Viacheslav-Filipenko/server-todo#get-todo)
-- [Update todo](https://github.com/Viacheslav-Filipenko/server-todo#update-todo)
-- [Delete todo](https://github.com/Viacheslav-Filipenko/server-todo#delete-todo)
+- [Get todos](https://github.com/Viacheslav-Filipenko/kpp-labs/tree/master/lab3/server#get-todos)
+- [Get todo](https://github.com/Viacheslav-Filipenko/kpp-labs/tree/master/lab3/server#get-todo)
+- [Update todo](https://github.com/Viacheslav-Filipenko/kpp-labs/tree/master/lab3/server#update-todo)
+- [Delete todo](https://github.com/Viacheslav-Filipenko/kpp-labs/tree/master/lab3/server#delete-todo)
 
 ## Get todos
 
@@ -71,8 +71,8 @@ GET
 
 ### Required Parameters
 
-| Field | Type  | Description           |
-| ----- | ----- | --------------------- |
+| Field | Type       | Description           |
+| ----- | ---------- | --------------------- |
 | id    | [objectId] | The id of todo to get |
 
 #### Sample Request
@@ -157,11 +157,11 @@ PUT
 
 ### Required Parameters
 
-| Field       | Type     | Description              |
-| ----------- | -------- | ------------------------ |
+| Field       | Type       | Description              |
+| ----------- | ---------- | ------------------------ |
 | id          | [objectId] | The id of todo to update |
-| description | [string] | the description of todo  |
-| completed   | [bool]   | state of todo            |
+| description | [string]   | the description of todo  |
+| completed   | [bool]     | state of todo            |
 
 ### Sample Request
 
@@ -204,8 +204,8 @@ DELETE
 
 ### Required Parameters
 
-| Field | Type     | Description              |
-| ----- | -------- | ------------------------ |
+| Field | Type       | Description              |
+| ----- | ---------- | ------------------------ |
 | id    | [objectId] | The id of todo to delete |
 
 ### Sample Request
